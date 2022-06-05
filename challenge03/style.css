@@ -32,14 +32,18 @@ p {
   font-size: 21px;
 }
 
-.btn {
+button {
   background: #38CFD9;
-  color: #072A2D;
-  font-family: roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 21px;
   border: none;
   border-radius: 31.5px;
   padding: 15px 48px;
   margin-top: 50px;
+}
+
+a {
+  color: #072A2D;
+  text-decoration: none;
 }
