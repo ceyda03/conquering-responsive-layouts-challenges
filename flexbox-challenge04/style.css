@@ -56,11 +56,6 @@ img {
     margin: 0 auto;
 }
 
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
 .row {
     display: flex;
     justify-content: space-between;
