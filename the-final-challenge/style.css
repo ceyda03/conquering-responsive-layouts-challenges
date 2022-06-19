@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+ */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+}
+
+.list-text {
+    font-size: 1.125em;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* navbar */
+
+nav {
+    background-color: #2E323F;
+    padding: 2em 0;
+}
+
+.nav__list {
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav__link {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__link--button {
+    background-color: #A59678;
+    border-radius: 100px;
+    padding: .25em 1em;
+}
+
+/* first section */
+
+.first-section {
+    background-color: #3B4050;
+    padding: 2em 0;
+}
+
+.first__title {
+    color: #FFF;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.title-half {
+    color: #A59678;
+}
+
+.intro__text {
+    color: #FFF;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+.intro__button {
+    background-color: #A59678;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 100px;
+    padding: .25em 1em;
+}
+
+/* second section */
+
+.second-section {
+    background-color: #e7eaf4;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.second__title {
+    color: #A59678;
+    font-size: 1.875em;
+}
+
+/* third section */
+
+.third-section {
+    margin: 2em 0;
+}
+
+.third__title {
+    color: #A59678;
+    font-size: 1.75em;
+}
+
+.content-text {
+    font-size: 1.2em;
+}
+
+.content-img {
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #3B4050;
+    color: #FFF;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+
+/* fourth section */
+
+.fourth-section {
+    background-color: #3B4050;
+    color: #FFF;
+    padding: 2em 0;
+}
+
+.fourth-title {
+    font-size: 1.5em;
+    text-align: center;
+    opacity: .75;
+}
+
+.footer-title {
+    color: #A59678;
+    font-size: 1.2em;
+    opacity: .75;
+}
+
+.footer-text {
+    opacity: .75;
+}
+
+.footer__list {
+    list-style-type: none;
+    opacity: .75;
+}
+
+.footer__list > li {
+    margin-top: 1.5em;
+}
