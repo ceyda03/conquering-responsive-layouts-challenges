@@ -8,25 +8,29 @@
     <title>Conquering Responsive Layouts</title>
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <img src="img/logo.svg" alt="'CRL' logo">
-            <ul class="nav__list">
-                <li><a href="#" class="nav__link">Home</a></li>
-                <li><a href="#" class="nav__link">About</a></li>
-                <li><a href="#" class="nav__link">Contact</a></li>
-            </ul>
-            <ul class="nav__list">
-                <li><a href="#" class="nav__link">Sign In</a></li>
-                <li><a href="#" class="nav__link nav__link--button">Sign Up</a></li>
-            </ul>
+    <header>
+        <div class="container navbar">
+            <a href="#">
+                <img src="img/logo.svg" alt="'CRL' logo">
+            </a>
+            <nav>
+                <ul class="nav__list nav__list--primary">
+                    <li><a href="#" class="nav__link">Home</a></li>
+                    <li><a href="#" class="nav__link">About</a></li>
+                    <li><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+                <ul class="nav__list">
+                    <li><a href="#" class="nav__link">Sign In</a></li>
+                    <li><a href="#" class="nav__link nav__link--button">Sign Up</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+    </header>
 
     <section class="first-section">
         <div class="container row">
             <h1 class="title first__title">Responsive layouts <span class="title-half">don't have to be a struggle</span></h1>
-            <div>
+            <div class="intro">
                 <p class="intro__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <button class="intro__button">I want to learn</button>
             </div>
@@ -35,15 +39,15 @@
 
     <section class="second-section">
         <div class="container row">
-            <div>
+            <div class="second__col">
                 <h2 class="title second__title">Mobile-first</h2>
                 <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
-            <div>
+            <div class="second__col">
                 <h2 class="title second__title">Efficient</h2>
                 <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
-            <div>
+            <div class="second__col">
                 <h2 class="title second__title">Done right</h2>
                 <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
@@ -51,63 +55,65 @@
     </section>
 
     <section class="third-section">
-        <div class="container row">
-            <div>
+        <div class="container content-flex">
+            <div class="content">
                 <h2 class="title third__title">It doesn't have to be so hard</h2>
                 <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 <img class="content-img" src="img/the-image.jpg" alt="Website layout sketches">
                 <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
-            <div class="row">
+            <div class="sidebar-flex">
                 <div class="sidebar">
                     <h2 class="title">Break it down</h2>
-                    <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
                 </div>
                 <div class="sidebar">
                     <h2 class="title">Work your way up</h2>
-                    <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
                 </div>
                 <div class="sidebar">
                     <h2 class="title">Break it down</h2>
-                    <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="fourth-section">
-        <div class="container row">
+        <div class="container">
             <h2 class="title fourth-title">just scratching the surface</h2>
             <div class="row">
-                <div>
+                <div class="footer__menu">
                     <p class="title footer-title">About our company</p>
                     <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
-                <div>
-                    <p class="title footer-title">Getting around</p>
-                    <ul class="footer__list">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-                <div>
-                    <p class="title footer-title">Other things</p>
-                    <ul class="footer__list">
-                        <li>Lorem ipsum</li>
-                        <li>dolor</li>
-                        <li>sit amet</li>
-                        <li>consectetur</li>
-                    </ul>
-                </div>
-                <div>
-                    <p class="title footer-title">And more</p>
-                    <ul class="footer__list">
-                        <li>Lorem ipsum</li>
-                        <li>dolor</li>
-                        <li>sit amet</li>
-                        <li>consectetur</li>
-                    </ul>
+                <div class="footer__links">
+                    <div>
+                        <p class="title footer-title">Getting around</p>
+                        <ul class="footer__list">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="title footer-title">Other things</p>
+                        <ul class="footer__list">
+                            <li>Lorem ipsum</li>
+                            <li>dolor</li>
+                            <li>sit amet</li>
+                            <li>consectetur</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="title footer-title">And more</p>
+                        <ul class="footer__list">
+                            <li>Lorem ipsum</li>
+                            <li>dolor</li>
+                            <li>sit amet</li>
+                            <li>consectetur</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
